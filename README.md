@@ -37,7 +37,39 @@ The dataset, sourced from the University of Edinburgh, consists of **456,714 fra
 - **Model**: YOLOv8, configured for real-time tracking of individuals with bounding boxes and behavior labels.
 - **Goal**: Achieve real-time behavior tracking and assess model adaptability to different office environments.
 
+## 📊 Results & Analysis
 
+This section showcases key visuals from the study, illustrating model performance across different methods.
+
+### 🔬 SVM Performance (Traditional ML)
+Confusion matrices showing SVM’s classification results across different days using Img2Vec features. 
+
+![SVM Confusion Matrix](link_to_svm_confusion_matrix_image)
+
+---
+
+### 🧠 ResNet-18 (Deep Learning)
+Training metrics for ResNet-18 at 100 epochs, comparing training and validation accuracy and loss.
+
+![ResNet Training Metrics](link_to_resnet_metrics_image)
+
+---
+
+### 🎥 YOLOv8 Object Detection
+Sample output frame from YOLOv8 tracking on Day 6, with bounding boxes around individuals to indicate real-time detection and labeling.
+
+![YOLOv8 Detection Output](link_to_yolo_detection_output_image)
+
+![YOLOv8 Tracking Demo GIF](link_to_your_gif.gif)
+#### YOLOv8 Tracking Demo Video
+[![YOLOv8 Video Demo](https://img.youtube.com/vi/mcl4nsTSMms/0.jpg)](https://www.youtube.com/watch?v=mcl4nsTSMms)
+
+---
+
+### 📊 Comparative Performance Summary
+Performance comparison for ML (SVM), ResNet, and YOLOv8 models across-validation, same-office, and cross-office data.
+
+![Performance Comparison Table](link_to_performance_comparison_image)
 
 
 
