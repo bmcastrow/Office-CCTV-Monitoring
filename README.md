@@ -2,6 +2,7 @@
 
 ## 👀 Project Overview
 The CCTV-Office-Monitor project aims to classify and track employee behaviors in an office setting using a combination of machine learning and deep learning techniques. By analyzing office footage, the system detects actions like walking, sitting, talking, and falling to assess productivity, safety, and attendance patterns.
+Although 3 areas were explored and mentioned in the article because of confidentiality purposes, only certain files will be included in this repo.
 
 ### 🚀 Key Focus areas:
 
