@@ -26,6 +26,8 @@ The dataset, sourced from the University of Edinburgh, consists of **456,714 fra
   - **Class 3**: Two or three people talking
   - **Class 4**: Person has fallen
 
+
+
 ## 🧠 Methodology
 
 ### 🏷️ 1. Traditional Machine Learning (Feature-Based Classification)
@@ -41,42 +43,20 @@ The dataset, sourced from the University of Edinburgh, consists of **456,714 fra
 - **Model**: YOLOv8, configured for real-time tracking of individuals with bounding boxes and behavior labels.
 - **Goal**: Achieve real-time behavior tracking and assess model adaptability to different office environments.
 
-## 📊 Results & Analysis
+
+
+## 📊 Key Results
 
 ### 1. Traditional Machine Learning (Feature-Based Classification)
 - **Best Performance**: The **SVM** model using combined **Img2Vec + HOG** features provided the highest accuracy of **0.93** across same-office days, indicating that traditional ML models can be highly effective for behavior classification when using engineered features.
 
-**Visual**:
-- **Table III**: Performance Comparison for ML models using Img2Vec.
-  
-  ![Table III - Classifier Performance Comparison](path/to/your/image/TableIII.png)
-
-- **Figure 5**: Confusion Matrices for **SVM** with Img2Vec.
-
-  ![Figure 5 - SVM Confusion Matrices](path/to/your/image/Figure5.png)
-
----
-
 ### 2. Deep Learning with ResNet-18
 - **Validation Success but Environment Challenge**: **ResNet-18** achieved strong validation accuracy (**0.9379**), but struggled with different-office environments, indicating a lack of adaptability without further training or adaptation.
-
-- **Table V**: Training Results for ResNet-18.
-
-  ![Table V - ResNet Training Results](path/to/your/image/TableV.png)
-
-- **Table VI**: Summary of Average Accuracies for ResNet-18.
-
-  ![Table VI - Summary Average Accuracies](path/to/your/image/TableVI.png)
-
----
 
 ### 3. YOLOv8 for Object Detection
 - **Real-Time Tracking Limitation**: **YOLOv8** performed well within the trained office setting (accuracy **0.9405**), but accuracy drastically dropped in different office settings (to **0.031**), highlighting domain transfer challenges.
 
-**Visual**:
-- **Table VI**: Summary of Average Accuracies for YOLOv8.
 
-  ![Table VI - Summary Average Accuracies](path/to/your/image/TableVI.png)
 
 # Further improvements 💭
 
