@@ -1,5 +1,8 @@
 # 📹 CCTV-Office-Monitor
 
+### Click on the image to see the YOLOv8 Tracking Demo Video
+[![YOLOv8 Video Demo](https://img.youtube.com/vi/mcl4nsTSMms/0.jpg)](https://www.youtube.com/watch?v=mcl4nsTSMms)
+
 ## 👀 Project Overview
 The CCTV-Office-Monitor project aims to classify and track employee behaviors in an office setting using a combination of machine learning and deep learning techniques. By analyzing office footage, the system detects actions like walking, sitting, talking, and falling to assess productivity, safety, and attendance patterns.
 Although 3 areas were explored and mentioned in the article because of confidentiality purposes, only certain files will be included in this repo.
@@ -61,9 +64,6 @@ Sample output frame from YOLOv8 tracking on Day 6, with bounding boxes around in
 
 ![YOLOv8 Detection Output](link_to_yolo_detection_output_image)
 
-![YOLOv8 Tracking Demo GIF](link_to_your_gif.gif)
-#### YOLOv8 Tracking Demo Video
-[![YOLOv8 Video Demo](https://img.youtube.com/vi/mcl4nsTSMms/0.jpg)](https://www.youtube.com/watch?v=mcl4nsTSMms)
 
 ---
 
