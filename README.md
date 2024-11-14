@@ -78,5 +78,51 @@ The dataset, sourced from the University of Edinburgh, consists of **456,714 fra
 - **Optimize for Live Processing**: Improve model speed to enable real-time monitoring.
 - **Develop a User Interface**: Create a UI for live tracking and activity insights.
 
+***⚠️ NOTE: This project was conducted on Google Colab using paid limited resources. Additional computing power could significantly improve performance and outcomes.***
+
+---
+
+# Delving deeper into the files in this repo. 🗂️
+
+- Taking into account what was mentioned in the section **"👀 Project Overview"** here we delve deeper into an explanation of the files that are provided in this repository
+
+# 📦 Dependencies and Imports for the ResNet (AdaptedForResNet)
+
+The following Python libraries were essential for the implementation of this project. Each of them played a significant role in various stages of the pipeline, such as data processing, modeling, visualization, and performance evaluation:
+
+```python
+import imp
+import os
+import rarfile
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from PIL import Image
+from google.colab import drive
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+from torchvision import datasets, transforms, models
+```
+
+### 📅 daysCSV
+A public dataset used for analysis and training in the project.
+
+### 📂 set_separate
+- Contains frames separated into training and validation sets:
+- **Train** and **Val**: Each folder has subfolders labeled `0-4`, which represent different behaviors observed in the frames.
+
+### 📊 Resnet10epochs and Resnet100epochs
+- Contains evaluation results for days `6` and `12`:
+- **Confusion Matrices** and **Results**: Performance metrics for each training epoch (10 and 100).
+
+### 📝 Annotations YOLOV8 "Proof of Concept" - YOLOV8_annotations_Proof_of_Concept
+Annotations created using YOLOV8 as a proof of concept for object detection model testing.
+
+### 🎓 Trained ResNet_epochs (.pth)
+Trained ResNet models (10 and 100 epochs), stored for performance evaluation and further analysis.
+
+
 
 
