@@ -106,13 +106,6 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 from torchvision import datasets, transforms, models
 ```
 
-### 📅 daysCSV
-A public dataset used for analysis and training in the project.
-
-### 📂 set_separate
-- Contains frames separated into training and validation sets:
-- **Train** and **Val**: Each folder has subfolders labeled `0-4`, which represent different behaviors observed in the frames.
-
 ### 📊 Resnet10epochs and Resnet100epochs
 - Contains evaluation results for days `6` and `12`:
 - **Confusion Matrices** and **Results**: Performance metrics for each training epoch (10 and 100).
