@@ -82,11 +82,11 @@ The dataset, sourced from the University of Edinburgh, consists of **456,714 fra
 
 ---
 
-# Delving deeper into the files in this repo. 🗂️
+# 🗂️ Delving deeper into the files in this repo.
 
 - Taking into account what was mentioned in the section **"👀 Project Overview"** here we delve deeper into an explanation of the files that are provided in this repository
 
-# 📦 Dependencies and Imports for the ResNet (AdaptedForResNet)
+### 📦 Dependencies and Imports for the ResNet (AdaptedForResNet)
 
 The following Python libraries were essential for the implementation of this project. Each of them played a significant role in various stages of the pipeline, such as data processing, modeling, visualization, and performance evaluation:
 
@@ -105,6 +105,14 @@ from google.colab import drive
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from torchvision import datasets, transforms, models
 ```
+You can contact me at brunocastrobmrc@gmail.com if you would like more spacy files, such as:
+
+### 📅 Days_CSV
+The public dataset used for analysis and training in the project.
+
+### 📂 set_separate
+- Contains frames separated into training and validation sets:
+- **Train** and **Val**: Each folder has subfolders labeled `0-4`, which represent different behaviors observed in the frames.
 
 ### 📊 Resnet10epochs and Resnet100epochs
 - Contains evaluation results for days `6` and `12`:
@@ -116,6 +124,7 @@ Annotations created using YOLOV8 as a proof of concept for object detection mode
 ### 🎓 Trained ResNet_epochs (.pth)
 Trained ResNet models (10 and 100 epochs), stored for performance evaluation and further analysis.
 
+- ...
 
 
 
