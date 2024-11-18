@@ -105,7 +105,7 @@ from google.colab import drive
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from torchvision import datasets, transforms, models
 ```
-You can contact me at brunocastrobmrc@gmail.com if you would like more spacy files, such as:
+You can contact me at brunocastrobmrc@gmail.com if you would like bigger files, such as:
 
 ### 📅 Days_CSV
 The public dataset used for analysis and training in the project.
