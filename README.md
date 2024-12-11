@@ -51,7 +51,7 @@ The dataset, sourced from the University of Edinburgh, consists of **456,714 fra
 - **Best Performance**: The **SVM** model using combined **Img2Vec + HOG** features provided the highest accuracy of **0.93** across same-office days, indicating that traditional ML models can be highly effective for behavior classification when using engineered features.
 
 ### 2. Deep Learning with ResNet-18
-- **Validation Success but Environment Challenge**: **ResNet-18** achieved strong validation accuracy (**0.9379**), but struggled with different-office environments, indicating a lack of adaptability without further training or adaptation.
+- **Validation Success but Environment Challenge**: **ResNet-18** achieved strong validation accuracy (**0.9379**), but struggled with different-office environments, indicating a lack of adaptability without further training or adaptation. ***Further improvements in the script must be adressed.***
 
 ### 3. YOLOv8 for Object Detection
 - **Real-Time Tracking Limitation**: **YOLOv8** performed well within the trained office setting (accuracy **0.9405**), but accuracy drastically dropped in different office settings (to **0.031**), highlighting domain transfer challenges.
