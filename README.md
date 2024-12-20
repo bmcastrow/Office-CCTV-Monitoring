@@ -35,7 +35,7 @@ The dataset, sourced from the University of Edinburgh, consists of **456,714 fra
 - **Models**: SVM, KNN, Decision Trees.., with **SVM** providing the best performance for behavior classification within the same office setting.
 - **Goal**: Assess how well traditional ML can classify static behaviors based on engineered image features.
 
-### 🤖 2. Deep Learning (ResNet-18)
+### 🤖 2. ⚠️ Deep Learning (ResNet-18)
 - **Architecture**: ResNet-18, chosen for its effective handling of complex image patterns using residual connections (Good avoidance on vanashing gradients problem.)
 - **Goal**: Evaluate deep learning’s capability for behavior recognition without extensive feature engineering.
 
